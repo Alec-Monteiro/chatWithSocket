@@ -1,0 +1,5 @@
+socket ->  é uma conexão permanente entre client-servidor, ou seja, não se encerra
+ideal para aplicações em tempo real como (chat, games e etc), se não fosse o socket seria 
+muito custoso sempre que precisar de uma resposta ter que abrir conexão, receber a esposta e fechar a conexão,
+o socket sempre estará ativo o que faz com que recebamos respostas do server em tempo real e vice-versa também,
+o server tbm receberá resposta em realTime do client.
